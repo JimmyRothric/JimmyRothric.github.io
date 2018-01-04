@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+.td td{width:120px;height:30px;text-align:center;}
+
+.reserveBtn {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #e7b94b;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 20px;
+	width: 100px;
+	height: 30px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	style="vertical-align:middle";
+	padding-top: 5px;
+}
+.reserveBtn:hover {
+	background-color: #e8b336;
+	color: white;
+}
+.reserveBtn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.reserveBtn span:after {
+	content: '»';
+	position: absolute;
+	opacity: 0;
+	top: 0px;
+	right: -20px;
+	transition: 0.5s;
+}
+.reserveBtn:hover span {
+	padding-right: 10px;
+}
+.reserveBtn:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.searchBtn {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #e7b94b;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 20px;
+	width: 100px;
+	height: 30px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	style="vertical-align:middle";
+	padding-top: 5px;
+}
+.searchBtn:hover {
+	background-color: #e8b336;
+	color: white;
+}
+
+.managerBtn {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #000000;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 20px;
+	width: 100px;
+	height: 30px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	style="vertical-align:middle";
+	padding-top: 5px;
+}
+.managerBtn:hover {
+	background-color: #4c4c4c;
+	color: white;
+}
+
+a:link,a:visited {color:000000;text-decoration:none;}
+a:hover,a:active {color:#A0A0A0;text-decoration:none;} 
+
+.mycenter{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width:500px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.mycenter mysign{
+    width: 440px;
+}
+.mycenter input,checkbox,button{
+    margin-top:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mycheckbox{
+    margin-top:10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    height: 10px;
+}
